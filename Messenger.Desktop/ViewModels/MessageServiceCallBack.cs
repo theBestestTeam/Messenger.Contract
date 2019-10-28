@@ -13,7 +13,7 @@ namespace Messenger.Desktop.ViewModels
 
         public void UserConnected(ObservableCollection<User> users)
         {
-            //throw new System.NotImplementedException();
+            throw new System.NotImplementedException();
         }
     }
 }

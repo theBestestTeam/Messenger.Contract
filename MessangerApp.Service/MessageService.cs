@@ -23,6 +23,8 @@ namespace MessangerApp.Service
             _users = new ObservableCollection<User>();
             _clients = new Dictionary<string, IMessageServiceCallBack>();
         }
+
+        //User is being connected to the chat server
         public void Connect(User user)
         {
             _callBack = OperationContext.Current.GetCallbackChannel<IMessageServiceCallBack>();
